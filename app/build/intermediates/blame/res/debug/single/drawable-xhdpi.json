@@ -10,5 +10,9 @@
     {
         "merged": "/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_launcher.png",
         "source": "/Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/tjeanjacques/Desktop/Map/SeenAds/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_launcher.png",
+        "source": "/Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/res/drawable-xhdpi/ic_launcher.png"
     }
 ]

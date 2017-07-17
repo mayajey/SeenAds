@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/tjeanjacques/Desktop/Map/SeenAds/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
+        "source": "/Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
         "merged": "/Users/mayajey/AndroidStudioProjects/android-google-maps-demo-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
         "source": "/Users/mayajey/AndroidStudioProjects/android-google-maps-demo-master/app/src/main/res/drawable-hdpi/ic_launcher.png"
     },
@@ -14,6 +18,10 @@
     {
         "merged": "/Users/tjeanjacques/Desktop/CodePath/SeenAds/app/build/intermediates/res/merged/debug/drawable-hdpi/favorite.png",
         "source": "/Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/res/drawable-hdpi/favorite.png"
+    },
+    {
+        "merged": "/Users/tjeanjacques/Desktop/Map/SeenAds/app/build/intermediates/res/merged/debug/drawable-hdpi/favorite.png",
+        "source": "/Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/res/drawable-hdpi/favorite.png"
     },
     {
         "merged": "/Users/mayajey/AndroidStudioProjects/android-google-maps-demo-master/app/build/intermediates/res/merged/debug/drawable-hdpi/favorite.png",

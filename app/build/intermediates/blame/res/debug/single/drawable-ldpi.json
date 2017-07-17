@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/tjeanjacques/Desktop/Map/SeenAds/app/build/intermediates/res/merged/debug/drawable-ldpi/ic_launcher.png",
+        "source": "/Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/res/drawable-ldpi/ic_launcher.png"
+    },
+    {
         "merged": "/Users/mayajey/AndroidStudioProjects/android-google-maps-demo-master/app/build/intermediates/res/merged/debug/drawable-ldpi/ic_launcher.png",
         "source": "/Users/mayajey/AndroidStudioProjects/android-google-maps-demo-master/app/src/main/res/drawable-ldpi/ic_launcher.png"
     },
