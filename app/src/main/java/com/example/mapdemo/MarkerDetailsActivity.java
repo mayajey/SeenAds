@@ -215,6 +215,7 @@ public class MarkerDetailsActivity extends AppCompatActivity {
         }
         return null;
         //hey
+        // hi
     }
 
     // Returns true if external storage for photos is available
