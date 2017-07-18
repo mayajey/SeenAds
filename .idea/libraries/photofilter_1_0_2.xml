@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="photofilter-1.0.2">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.android/build-cache/a6d6f74e448a3c1fbd034b90353fa18877d05308/output/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.android/build-cache/a6d6f74e448a3c1fbd034b90353fa18877d05308/output/res" />
+      <root url="file://$USER_HOME$/.android/build-cache/d3e73c1f55031a442486c37326cfe379b931ebca/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/d3e73c1f55031a442486c37326cfe379b931ebca/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

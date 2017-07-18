@@ -1,11 +1,23 @@
 [
     {
+        "merged": "/Users/tjeanjacques/Desktop/Map2/SeenAds/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
+        "source": "/Users/tjeanjacques/Desktop/Map2/SeenAds/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/tjeanjacques/Desktop/Map2/SeenAds/app/build/intermediates/res/merged/debug/drawable-hdpi/favorite.png",
+        "source": "/Users/tjeanjacques/Desktop/Map2/SeenAds/app/src/main/res/drawable-hdpi/favorite.png"
+    },
+    {
         "merged": "/Users/amade002/Documents/SeenAds/app/build/intermediates/res/merged/debug/drawable-hdpi/cameraicon.png",
         "source": "/Users/amade002/Documents/SeenAds/app/src/main/res/drawable-hdpi/cameraicon.png"
     },
     {
         "merged": "/Users/amade002/Documents/SeenAds/app/build/intermediates/res/merged/debug/drawable-hdpi/favorite.png",
         "source": "/Users/amade002/Documents/SeenAds/app/src/main/res/drawable-hdpi/favorite.png"
+    },
+    {
+        "merged": "/Users/tjeanjacques/Desktop/Map2/SeenAds/app/build/intermediates/res/merged/debug/drawable-hdpi/cameraicon.png",
+        "source": "/Users/tjeanjacques/Desktop/Map2/SeenAds/app/src/main/res/drawable-hdpi/cameraicon.png"
     },
     {
         "merged": "/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/res/merged/debug/drawable-hdpi/cameraicon.png",
