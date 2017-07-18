@@ -7,7 +7,6 @@ package com.example.mapdemo;
 import android.app.Application;
 
 import com.parse.Parse;
-import com.parse.ParseFacebookUtils;
 import com.parse.ParseObject;
 
 import okhttp3.OkHttpClient;
@@ -42,7 +41,7 @@ public class SeenAdsApplication extends Application {
         // testObject.saveInBackground();
 
         //for user login edits
-        ParseFacebookUtils.initialize(context);
+        //ParseFacebookUtils.initialize(context);
 
 
     }
