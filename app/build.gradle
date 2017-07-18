@@ -22,6 +22,8 @@ repositories {
     mavenCentral()
 }
 dependencies {
+    //for circleimageview
+    compile 'de.hdodenhof:circleimageview:2.1.0'
     //for Parse linking to FB
     compile 'com.parse:parsefacebookutils-v4-android:1.10.3@aar'
     //for Facebook SDK
