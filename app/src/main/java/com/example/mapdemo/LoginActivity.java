@@ -3,6 +3,7 @@ package com.example.mapdemo;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.TextView;
 
 import com.facebook.CallbackManager;
@@ -32,28 +33,44 @@ public class LoginActivity extends AppCompatActivity {
         info = (TextView) findViewById(R.id.info);
         loginButton = (LoginButton) findViewById(R.id.login_button);
 
+    callbackManager = CallbackManager.Factory.create();
+
+        // LoginManager.getInstance().registerCallback(callbackManager,
+        //        new FacebookCallback<LoginResult>() {
         loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
             @Override
             public void onSuccess(LoginResult loginResult) {
                 info.setText("User ID:  " +
                         loginResult.getAccessToken().getUserId() + "\n" +
                         "Auth Token: " + loginResult.getAccessToken().getToken());
+            //TODO: pass user ID to groups activity
+                loginButton.setVisibility(View.INVISIBLE);
+                toHomeGroupActivity();
+                finish();
             }
 
             @Override
             public void onCancel() {
-                info.setText("Login attempt cancelled.");
+                info.setText("Cancelled Login Attempt");
             }
 
             @Override
             public void onError(FacebookException e) {
-                info.setText("Login attempt failed.");
+                info.setText("Failed Login Attempt");
             }
         });
     }
 
+//method going to the groups activity
+    private void toHomeGroupActivity() {
+        Intent i = new Intent(LoginActivity.this, HomeGroupActivity.class);
+        startActivity(i);
+
+    }
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+       // super.onActivityResult(requestCode, resultCode, data); //not sure if I need this
         callbackManager.onActivityResult(requestCode, resultCode, data);
     }
 }

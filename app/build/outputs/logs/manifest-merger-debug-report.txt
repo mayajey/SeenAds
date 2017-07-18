@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:2:1-80:12
+ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:2:1-104:12
 	package
 		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:3:5-34
 		INJECTED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml
@@ -69,59 +69,59 @@ ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.
 		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:20:9-44
 	android:name
 		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:19:9-49
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-maps:11.0.1] /Users/tjeanjacques/.android/build-cache/5776df15ed9c34ac1307125e58eca2db31d85e12/output/AndroidManifest.xml:19:5-78
-MERGED from [com.parse:parse-android:1.15.8] /Users/tjeanjacques/.android/build-cache/6b57a41aef13ee8df34e468a6c1e81b4c10989f8/output/AndroidManifest.xml:20:5-79
-	android:name
-		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:22:22-76
-uses-permission#com.example.mapdemo.permission.MAPS_RECEIVE
-ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:23:5-83
-	android:name
-		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:23:22-80
 uses-permission#android.permission.INTERNET
-ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:24:5-67
+ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:21:5-66
 MERGED from [com.google.android.gms:play-services-maps:11.0.1] /Users/tjeanjacques/.android/build-cache/5776df15ed9c34ac1307125e58eca2db31d85e12/output/AndroidManifest.xml:20:5-66
 MERGED from [com.parse:parse-android:1.15.8] /Users/tjeanjacques/.android/build-cache/6b57a41aef13ee8df34e468a6c1e81b4c10989f8/output/AndroidManifest.xml:19:5-67
 	android:name
-		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:24:22-64
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:21:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-maps:11.0.1] /Users/tjeanjacques/.android/build-cache/5776df15ed9c34ac1307125e58eca2db31d85e12/output/AndroidManifest.xml:19:5-78
+MERGED from [com.parse:parse-android:1.15.8] /Users/tjeanjacques/.android/build-cache/6b57a41aef13ee8df34e468a6c1e81b4c10989f8/output/AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:24:22-76
+uses-permission#com.example.mapdemo.permission.MAPS_RECEIVE
+ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:25:5-83
+	android:name
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:25:22-80
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:25:5-79
+ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:27:5-79
 	android:name
-		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:25:22-76
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:27:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:26:5-81
+ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:28:5-81
 	android:name
-		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:26:22-78
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:28:22-78
 uses-permission#android.permission.CAMERA
-ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:27:5-65
+ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:29:5-65
 	android:name
-		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:27:22-62
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:29:22-62
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:28:5-80
+ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:30:5-80
 	android:name
-		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:28:22-77
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:30:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:29:5-81
+ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:31:5-81
 	android:name
-		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:29:22-78
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:31:22-78
 uses-feature#0x00020000
-ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:31:5-33:35
+ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:33:5-35:35
 MERGED from [com.google.android.gms:play-services-maps:11.0.1] /Users/tjeanjacques/.android/build-cache/5776df15ed9c34ac1307125e58eca2db31d85e12/output/AndroidManifest.xml:21:5-77
 	android:glEsVersion
-		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:32:9-41
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:34:9-41
 	android:required
-		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:33:9-32
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:35:9-32
 uses-feature#android.hardware.camera
-ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:34:5-60
+ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:36:5-60
 	android:name
-		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:34:19-57
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:36:19-57
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:36:5-75
+ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:38:5-75
 	android:name
-		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:36:22-72
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:38:22-72
 application
-ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:38:5-78:19
+ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:40:5-101:19
 MERGED from [com.facebook.android:facebook-android-sdk:4.24.0] /Users/tjeanjacques/.android/build-cache/e66ad0f63ef2c0a6d9c36f433563d9668239b1c8/output/AndroidManifest.xml:28:5-48:19
 MERGED from [com.android.support:cardview-v7:25.3.1] /Users/tjeanjacques/.android/build-cache/173f968856c87beae16cab216d57491cd8d96a7a/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:customtabs:25.3.1] /Users/tjeanjacques/.android/build-cache/7d7416bb628b2749edeec218ff40e8d63d97e7c8/output/AndroidManifest.xml:26:5-20
@@ -143,86 +143,119 @@ MERGED from [com.android.support:support-core-ui:25.3.1] /Users/tjeanjacques/.an
 MERGED from [com.android.support:support-compat:25.3.1] /Users/tjeanjacques/.android/build-cache/7c1ecf847bfbf51f2b50145ba022586cd35877ea/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/tjeanjacques/.android/build-cache/b41b2ee800230b21850a3ce8b1cbfde234f1e2f0/output/AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:42:9-41
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:44:9-41
 	android:allowBackup
-		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:40:9-35
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:42:9-35
 	android:icon
-		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:41:9-45
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:43:9-45
 	android:theme
-		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:43:9-40
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:45:9-40
 	android:name
-		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:39:9-43
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:41:9-43
 provider#android.support.v4.content.FileProvider
-ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:44:9-52:20
+ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:46:9-54:20
 	android:authorities
-		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:46:13-67
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:48:13-67
 	android:grantUriPermissions
-		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:48:13-47
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:50:13-47
 	android:exported
-		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:47:13-37
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:49:13-37
 	android:name
-		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:45:13-67
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:47:13-67
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:49:13-51:56
+ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:51:13-53:56
 	android:resource
-		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:51:17-53
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:53:17-53
 	android:name
-		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:50:17-67
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:52:17-67
 activity#com.example.mapdemo.MapDemoActivity
-ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:54:9-62:20
+ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:56:9-60:20
 	android:label
-		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:56:13-45
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:58:13-45
 	android:name
-		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:55:13-44
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:57:13-61:29
-action#android.intent.action.MAIN
-ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:58:17-69
-	android:name
-		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:58:25-66
-category#android.intent.category.LAUNCHER
-ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:60:17-77
-	android:name
-		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:60:27-74
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:57:13-44
 activity#com.example.mapdemo.MarkerDetailsActivity
-ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:63:9-59
+ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:61:9-59
 	android:name
-		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:63:19-56
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:61:19-56
 activity#com.example.mapdemo.PhotoTakeActivity
-ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:64:9-55
+ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:62:9-55
 	android:name
-		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:64:19-52
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:62:19-52
 uses-library#com.google.android.maps
-ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:66:9-68:39
+ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:64:9-66:39
 	android:required
-		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:68:13-36
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:66:13-36
 	android:name
-		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:67:13-51
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:65:13-51
 meta-data#com.google.android.maps.v2.API_KEY
-ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:70:9-72:59
+ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:68:9-70:59
 	android:value
-		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:72:13-56
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:70:13-56
 	android:name
-		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:71:13-62
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:69:13-62
 meta-data#com.google.android.gms.version
-ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:73:9-75:69
+ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:71:9-73:69
 MERGED from [com.google.android.gms:play-services-basement:11.0.1] /Users/tjeanjacques/.android/build-cache/0241566cf8f447d570f47cb5e2bdffa019127746/output/AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:75:13-66
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:73:13-66
 	android:name
-		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:74:13-58
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:72:13-58
 activity#com.example.mapdemo.LoginActivity
-ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:77:9-60
+ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:75:9-80:20
 	android:name
-		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:77:19-48
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:75:19-48
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:76:13-79:29
+action#android.intent.action.MAIN
+ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:77:17-68
+	android:name
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:77:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:78:17-76
+	android:name
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:78:27-74
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:84:9-85:54
+	android:value
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:85:13-52
+	android:name
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:84:20-65
 activity#com.facebook.FacebookActivity
-ADDED from [com.facebook.android:facebook-android-sdk:4.24.0] /Users/tjeanjacques/.android/build-cache/e66ad0f63ef2c0a6d9c36f433563d9668239b1c8/output/AndroidManifest.xml:29:9-32:66
+ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:87:9-90:48
+MERGED from [com.facebook.android:facebook-android-sdk:4.24.0] /Users/tjeanjacques/.android/build-cache/e66ad0f63ef2c0a6d9c36f433563d9668239b1c8/output/AndroidManifest.xml:29:9-32:66
+	android:label
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:90:13-45
 	android:configChanges
-		ADDED from [com.facebook.android:facebook-android-sdk:4.24.0] /Users/tjeanjacques/.android/build-cache/e66ad0f63ef2c0a6d9c36f433563d9668239b1c8/output/AndroidManifest.xml:31:13-96
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:88:13-113
 	android:theme
 		ADDED from [com.facebook.android:facebook-android-sdk:4.24.0] /Users/tjeanjacques/.android/build-cache/e66ad0f63ef2c0a6d9c36f433563d9668239b1c8/output/AndroidManifest.xml:32:13-63
 	android:name
-		ADDED from [com.facebook.android:facebook-android-sdk:4.24.0] /Users/tjeanjacques/.android/build-cache/e66ad0f63ef2c0a6d9c36f433563d9668239b1c8/output/AndroidManifest.xml:30:13-57
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:87:19-63
+activity#com.facebook.CustomTabActivity
+ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:91:9-100:20
+	android:exported
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:93:13-36
+	android:name
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:92:13-58
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:94:13-99:29
+action#android.intent.action.VIEW
+ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:95:17-69
+	android:name
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:95:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:96:17-76
+	android:name
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:96:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:97:17-78
+	android:name
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:97:27-75
+data
+ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:98:17-75
+	android:scheme
+		ADDED from /Users/tjeanjacques/Desktop/Map/SeenAds/app/src/main/AndroidManifest.xml:98:23-72
 activity#com.facebook.CustomTabMainActivity
 ADDED from [com.facebook.android:facebook-android-sdk:4.24.0] /Users/tjeanjacques/.android/build-cache/e66ad0f63ef2c0a6d9c36f433563d9668239b1c8/output/AndroidManifest.xml:33:9-71
 	android:name
