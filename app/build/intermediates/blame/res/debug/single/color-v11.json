@@ -1,5 +1,13 @@
 [
     {
+        "merged": "/Users/amade002/Documents/SeenAds/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/amade002/.android/build-cache/1bfd1c7bc5ed59e816fd20a4b92cc4f166056da8/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/amade002/Documents/SeenAds/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/amade002/.android/build-cache/1bfd1c7bc5ed59e816fd20a4b92cc4f166056da8/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
         "merged": "/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
         "source": "/Users/mayajey/.android/build-cache/a9ccf323998861a19daa2765df2ccd33986e0f4a/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
     },

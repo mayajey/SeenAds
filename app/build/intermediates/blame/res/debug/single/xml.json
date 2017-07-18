@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/amade002/Documents/SeenAds/app/build/intermediates/res/merged/debug/xml/fileprovider.xml",
+        "source": "/Users/amade002/Documents/SeenAds/app/src/main/res/xml/fileprovider.xml"
+    },
+    {
         "merged": "/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/res/merged/debug/xml/fileprovider.xml",
         "source": "/Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/res/xml/fileprovider.xml"
     }

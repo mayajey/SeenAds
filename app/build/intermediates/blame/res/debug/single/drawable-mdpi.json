@@ -2,5 +2,9 @@
     {
         "merged": "/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_launcher.png",
         "source": "/Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/amade002/Documents/SeenAds/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_launcher.png",
+        "source": "/Users/amade002/Documents/SeenAds/app/src/main/res/drawable-mdpi/ic_launcher.png"
     }
 ]
