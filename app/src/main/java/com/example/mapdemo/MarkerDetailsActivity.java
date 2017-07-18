@@ -214,6 +214,7 @@ public class MarkerDetailsActivity extends AppCompatActivity {
             return FileProvider.getUriForFile(MarkerDetailsActivity.this, "com.example.mapdemo.fileprovider", file);
         }
         return null;
+        //hey
     }
 
     // Returns true if external storage for photos is available
