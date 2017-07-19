@@ -1,4 +1,4 @@
-#Tue Jul 18 16:51:20 PDT 2017
+#Wed Jul 19 11:50:18 PDT 2017
 base.0=/Users/amade002/Documents/SeenAds/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
 file.0=/Users/amade002/Documents/SeenAds/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

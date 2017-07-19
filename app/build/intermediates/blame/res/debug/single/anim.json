@@ -8,12 +8,12 @@
         "source": "/Users/amade002/.android/build-cache/1bfd1c7bc5ed59e816fd20a4b92cc4f166056da8/output/res/anim/abc_popup_exit.xml"
     },
     {
-        "merged": "/Users/tjeanjacques/Desktop/Map2/SeenAds/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
-        "source": "/Users/tjeanjacques/.android/build-cache/62b6bfee9abf385d0ca0ac8556244988988eb4d2/output/res/anim/abc_grow_fade_in_from_bottom.xml"
-    },
-    {
         "merged": "/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
         "source": "/Users/mayajey/.android/build-cache/a9ccf323998861a19daa2765df2ccd33986e0f4a/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/tjeanjacques/Desktop/Map2/SeenAds/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/tjeanjacques/.android/build-cache/62b6bfee9abf385d0ca0ac8556244988988eb4d2/output/res/anim/abc_grow_fade_in_from_bottom.xml"
     },
     {
         "merged": "/Users/amade002/Documents/SeenAds/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",

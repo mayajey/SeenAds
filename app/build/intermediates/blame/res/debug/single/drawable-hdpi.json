@@ -4,12 +4,12 @@
         "source": "/Users/tjeanjacques/Desktop/Map2/SeenAds/app/src/main/res/drawable-hdpi/favorite.png"
     },
     {
-        "merged": "/Users/amade002/Documents/SeenAds/app/build/intermediates/res/merged/debug/drawable-hdpi/cameraicon.png",
-        "source": "/Users/amade002/Documents/SeenAds/app/src/main/res/drawable-hdpi/cameraicon.png"
-    },
-    {
         "merged": "/Users/amade002/Documents/SeenAds/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_vector_notifications.png",
         "source": "/Users/amade002/Documents/SeenAds/app/build/generated/res/pngs/debug/drawable-hdpi/ic_vector_notifications.png"
+    },
+    {
+        "merged": "/Users/amade002/Documents/SeenAds/app/build/intermediates/res/merged/debug/drawable-hdpi/cameraicon.png",
+        "source": "/Users/amade002/Documents/SeenAds/app/src/main/res/drawable-hdpi/cameraicon.png"
     },
     {
         "merged": "/Users/amade002/Documents/SeenAds/app/build/intermediates/res/merged/debug/drawable-hdpi/favorite.png",
