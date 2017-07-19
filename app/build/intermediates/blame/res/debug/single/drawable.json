@@ -84,12 +84,12 @@
         "source": "/Users/tjeanjacques/.android/build-cache/62b6bfee9abf385d0ca0ac8556244988988eb4d2/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
-        "merged": "/Users/amade002/Documents/SeenAds/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
-        "source": "/Users/amade002/.android/build-cache/1bfd1c7bc5ed59e816fd20a4b92cc4f166056da8/output/res/drawable/notification_bg_low.xml"
-    },
-    {
         "merged": "/Users/amade002/Documents/SeenAds/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
         "source": "/Users/amade002/.android/build-cache/fe9d427bb08665b3c3d72b1c67cbd676e9c71b96/output/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/amade002/Documents/SeenAds/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
+        "source": "/Users/amade002/.android/build-cache/1bfd1c7bc5ed59e816fd20a4b92cc4f166056da8/output/res/drawable/notification_bg_low.xml"
     },
     {
         "merged": "/Users/tjeanjacques/Desktop/Map2/SeenAds/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
