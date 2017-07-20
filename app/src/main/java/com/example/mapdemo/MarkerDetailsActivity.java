@@ -39,6 +39,8 @@ public class MarkerDetailsActivity extends AppCompatActivity {
 
     public final String APP_TAG = "SeenAds";
     public final static int CAPTURE_IMAGE_ACTIVITY_REQUEST_CODE = 1034;
+    // PICK_PHOTO_CODE is a constant integer
+    public final static int PICK_PHOTO_CODE = 1046;
 
     public boolean parseFlag = false;
 
@@ -56,6 +58,7 @@ public class MarkerDetailsActivity extends AppCompatActivity {
     TextView tvTitle;
     TextView tvSnippet;
     ImageButton ibUploadPic;
+    ImageButton ibGalleryPic;
     ImageView ivMarkerPhoto;
 
     // TODO make this prettier
@@ -73,6 +76,7 @@ public class MarkerDetailsActivity extends AppCompatActivity {
         tvTitle = (TextView) findViewById(R.id.tvTitle);
         tvSnippet = (TextView) findViewById(R.id.tvSnippet);
         ivMarkerPhoto = (ImageView) findViewById(R.id.ivMarkerPhoto);
+        ibGalleryPic = (ImageButton) findViewById(R.id.ibGalleryPic);
 
         // loading photo file based on LOCATION from Parse
         ParseQuery<ParseObject> query  = ParseQuery.getQuery("ParseImageArrays");
@@ -139,6 +143,19 @@ public class MarkerDetailsActivity extends AppCompatActivity {
             startActivityForResult(intent, CAPTURE_IMAGE_ACTIVITY_REQUEST_CODE);
         }
     }
+    // Trigger gallery selection for a photo
+    public void onPickPhoto(View view) {
+        // Create intent for picking a photo from the gallery
+        Intent intent = new Intent(Intent.ACTION_PICK,
+                MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+
+        // If you call startActivityForResult() using an intent that no app can handle, your app will crash.
+        // So as long as the result is not null, it's safe to use the intent.
+        if (intent.resolveActivity(getPackageManager()) != null) {
+            // Bring up gallery to select a photo
+            startActivityForResult(intent, PICK_PHOTO_CODE);
+        }
+    }
 
     @Override
     public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
@@ -195,6 +212,64 @@ public class MarkerDetailsActivity extends AppCompatActivity {
                 Toast.makeText(this, "Picture wasn't taken!", Toast.LENGTH_SHORT).show();
             }
         }
+
+
+        if (data != null) {
+            Uri photoUri = data.getData();
+            // Do something with the photo based on Uri
+            Bitmap selectedImage = null;
+            try {
+                selectedImage = MediaStore.Images.Media.getBitmap(this.getContentResolver(), photoUri);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+            Bitmap resizedImage = BitmapScaler.scaleToFitWidth(selectedImage, 430);
+            // Configure byte output stream
+            stream = new ByteArrayOutputStream();
+            // Compress the image further
+            resizedImage.compress(Bitmap.CompressFormat.JPEG, 90, stream);
+
+            // Save image to Parse
+            byte[] image = stream.toByteArray();
+            final ParseFile parseImage = new ParseFile(image);
+            try {
+                parseImage.save();
+            } catch (ParseException e) {
+                e.printStackTrace();
+            }
+
+
+            ParseObject testObject = new ParseObject("ParseImageArrays");
+            // Put the image file into parse DB under ParseImageArrays class
+            testObject.put("MarkerImage", parseImage);
+            // For retrieval of images; check if the Parse location matches the current marker's location for loading
+            testObject.put("Snippet", snip);
+            testObject.put("Location", location);
+            testObject.saveInBackground();
+
+            // Create a new file for the resized bitmap (`getPhotoFileUri` defined above)
+            Uri resizedUri = getPhotoFileUri(photoFileName + "_resized");
+            File resizedFile = new File(resizedUri.getPath());
+            FileOutputStream fos = null;
+            try {
+                resizedFile.createNewFile();
+                fos = new FileOutputStream(resizedFile);
+                fos.write(stream.toByteArray());
+                fos.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            // Load the resized image into a preview
+            ivMarkerPhoto.setImageBitmap(selectedImage);
+        } else { // Result was a failure
+            Toast.makeText(this, "Picture wasn't uploaded!", Toast.LENGTH_SHORT).show();
+        }
+
+
+//            // Load the selected image into a preview
+//            ImageView ivPreview = (ImageView) findViewById(R.id.ivMarkerPhoto);
+//            ivPreview.setImageBitmap(selectedImage);
     }
 
     // Returns the Uri for a photo stored on disk given the fileName
@@ -214,8 +289,7 @@ public class MarkerDetailsActivity extends AppCompatActivity {
             return FileProvider.getUriForFile(MarkerDetailsActivity.this, "com.example.mapdemo.fileprovider", file);
         }
         return null;
-        //hey
-        // hi
+
     }
 
     // Returns true if external storage for photos is available
